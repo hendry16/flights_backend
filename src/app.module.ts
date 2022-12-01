@@ -11,8 +11,8 @@ import { FlightsModule } from './flights/flights.module';
       type: 'postgres',
       host: 'localhost',
       port: 5432,
-      username: 'hendry16',
-      password: 'zerotwodb',
+      username: '',
+      password: '',
       database: 'transportation',
       entities: [Flights],
       synchronize: true
